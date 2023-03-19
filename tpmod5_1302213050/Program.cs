@@ -12,6 +12,8 @@ internal class Program
     public static void Main(string[] args)
     {
         HaloGeneric.sapaUser("Yoga");
+        DataGeneric<long> objData = new DataGeneric<long>(1302213050);
+        objData.printData();
     }
 }
 
@@ -29,10 +31,5 @@ internal class Program
         }
     }
 
-    public static void Main(string[] args)
-    {
-        DataGeneric<long> objData = new DataGeneric<long>(1302213050);
-        objData.printData();
-    }
-}
+
 
